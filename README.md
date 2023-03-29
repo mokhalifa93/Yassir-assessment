@@ -13,5 +13,6 @@
 # Docs:-
        - You can find Yassir-air-quality.postman_collection.json is postman collection Just you need to import it.
        - Am also using jsDoc in the code level aswell
-# You can reach me out by this mail (Mo.khalifa93i@gmail.com) feel free to ask anything.
+
+You can reach me out by this mail (Mo.khalifa93i@gmail.com) feel free to ask anything.
 
