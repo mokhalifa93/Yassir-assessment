@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "4cdf71f6-6895-4084-8d04-b0ad4ea00df0",
+		"name": "Yassir-air-quality",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3966005"
+	},
+	"item": [
+		{
+			"name": "Get last Paris fetched time request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/airQuality/timestamp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airQuality",
+						"timestamp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cities air quality",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/airQuality/cities?latitude=31.7948624&longitude=10.0732375.",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airQuality",
+						"cities"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "31.7948624"
+						},
+						{
+							"key": "longitude",
+							"value": "10.0732375."
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

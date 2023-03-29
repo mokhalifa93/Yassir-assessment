@@ -1,0 +1,9 @@
+{
+    "DB":{
+        "URL":"mongodb://127.0.0.1:27017/test"
+      },
+      "notSupportedCity":{
+        "longitude":"1.0732375",
+        "latitude":"31.7948624"
+      }
+}

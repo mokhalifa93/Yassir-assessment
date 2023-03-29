@@ -1,0 +1,11 @@
+{
+  "DB":{
+    "URL":"mongodb://127.0.0.1:27017/yassir"
+  },
+  "PORT":3000,
+  "ParisData":{
+    "name":"Paris",
+    "latitude":48.856613,
+    "longitude": 2.352222
+  }
+}
